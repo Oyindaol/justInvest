@@ -150,6 +150,7 @@ def register():
               , "must be prohibited")
         password = input("Enter your password: ")
 
+    print("\nAvailable roles (case sensitive!): ", ", ".join(roles))  # Print available roles
     role = input("Enter your role: ")
 
     while role not in roles:
