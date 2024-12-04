@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from justInvest import generate_salt,calculate_sha256, append_to_file, search_user, is_valid_password
 
 def test_enrolment_mechanism():

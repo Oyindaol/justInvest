@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from justInvest import check_permission
 from datetime import datetime
 

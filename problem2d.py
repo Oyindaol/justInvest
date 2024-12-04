@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from justInvest import append_to_file, generate_salt, calculate_sha256,verify_password, search_user, is_valid_password
 
 def test_password_file():
