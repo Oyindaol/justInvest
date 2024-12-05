@@ -28,8 +28,9 @@ def test_password_file():
     # Test Case 3: Verify an existing user with incorrect password
     try:
         result = verify_password("test_name", "WrongPass@123")
-        test_results.append(("Test Case-3", result == "ACCESS DENIED"))
+        test_results.append(("Test Case-3", result == "ACCESS DENIED (Incorrect Password)"))
     except Exception as e:
+        print(f"Error in Test Case-3: {e}")
         test_results.append(("Test Case-3", False))
 
     # Test Case 4: Search for an existing user
